@@ -1,0 +1,71 @@
+@import "fonts.css";
+/* General Settings */
+*{
+  margin: 0;
+  padding: 0; 
+}
+html{
+  font-size: 10px;
+}
+body{
+  font-family: Lato, sans-serif;
+}
+.wrapper{
+  width: 94rem;
+  margin: 0 auto;  
+}
+h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+/* Portfolio section */
+.portfolio {
+  background-color: #2d303a;
+  border-bottom: #323746 6px solid;
+  box-sizing: border-box;
+  padding: 60px 0 47px 0;
+}
+
+.portfolio__title {
+  color: #666d89;
+}
+
+.portfolio__description {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #767e9e;
+  margin-top: 22px;
+}
+
+.portfolio__tags {
+  display: flex;
+  padding: 15px 0 18px 0;
+}
+
+.tag {
+  color: #666d89;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px 7px;
+  margin-right: 9px;
+  word-spacing: -1px;
+}
+
+.tag_selected {
+  color: #c5c5c5;
+  border-color: #c5c5c5;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery__item {
+  flex-basis: 23%;
+  margin-bottom: 18px;
+}
+
