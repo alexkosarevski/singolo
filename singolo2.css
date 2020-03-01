@@ -18,24 +18,26 @@ h2{
   font-size: 3rem;
   font-weight: 900;
 }
+
+.section-title {
+  color: #666d89;
+}
+
+.section-description {
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #767e9e;
+  padding-top: 22px;
+}
+
 /* Portfolio section */
 .portfolio {
   background-color: #2d303a;
   border-bottom: #323746 6px solid;
   box-sizing: border-box;
-  padding: 60px 0 47px 0;
+  padding: 60px 0 65px 0;
 }
 
-.portfolio__title {
-  color: #666d89;
-}
-
-.portfolio__description {
-  font-weight: 300;
-  font-size: 1.8rem;
-  color: #767e9e;
-  margin-top: 22px;
-}
 
 .portfolio__tags {
   display: flex;
@@ -63,9 +65,19 @@ h2{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  max-height: 603px;
+  overflow: hidden;
 }
 .gallery__item {
   flex-basis: 23%;
   margin-bottom: 18px;
+}
+
+/* about us section */
+.about-us {
+  background-color: #f2f2f2;
+  border-bottom: #fff 6px solid;
+  box-sizing: border-box;
+  padding: 60px 0 65px 0;
 }
 
