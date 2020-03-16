@@ -48,6 +48,9 @@ h3{
   box-sizing: border-box;
   background-color: #2d303a;
   border-bottom: solid 6px #323746;
+  position: sticky;
+  top:0;
+  z-index: 999;
 }
 
 .header__content{
@@ -76,7 +79,6 @@ h3{
 
 .navigation{
   display: flex;
-  list-style-type: none;
   color: #fff;
 }
 
@@ -85,11 +87,11 @@ h3{
   font-weight: 700;
   text-transform: uppercase;  
   color: #fff;
+  text-decoration: none;
 }
 
-.navigation__item:hover{
-  color: #f06c64;
-  cursor: pointer;
+.navigation__item_active{
+  color: #f06c64 !important;
 }
 
 .navigation__item:not(:last-child)::after{

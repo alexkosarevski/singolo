@@ -15,20 +15,18 @@
         <a class="logo" href="#">
           <h1 class="page-header">Singolo<span>*</span></h1>
         </a>
-        <nav>
-          <ul class="navigation">
-            <li class="navigation__item">Home</li>
-            <li class="navigation__item">Services</li>
-            <li class="navigation__item">Portfolio</li>
-            <li class="navigation__item">About</li>
-            <li class="navigation__item">Contact</li>
-          </ul>
+        <nav id="navigation" class="navigation">
+          <a href="#home" class="navigation__item navigation__item_active">Home</a>
+          <a href="#services" class="navigation__item">Services</a>
+          <a href="#portfolio" class="navigation__item">Portfolio</a>
+          <a href="#about" class="navigation__item">About</a>
+          <a href="#quote" class="navigation__item">Contact</a>
         </nav>
       </div>
     </div>
   </header>
   <main class="main">
-    <section class="home">
+    <section id="home" class="home">
       <div class="wrapper">
         <div class="slider">
           <div class="slider__arrows">
@@ -44,7 +42,7 @@
         </div>
       </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <div class="wrapper">
         <h2 class="section__title">Our Services</h2>
         <p class="section-description services__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -119,7 +117,7 @@
         </div>
       </div>
     </section>
-    <section class="portfolio">
+    <section id="portfolio" class="portfolio">
       <div class="wrapper">
         <h2 class="section-title">Portfolio</h2>
         <p class="section-description portfolio__description">Duis mollis, est non commodo luctus, nisi erat porttitor
@@ -171,7 +169,7 @@
         </div>
       </div>
     </section>
-    <section class="about-us">
+    <section id="about" class="about-us">
       <div class="wrapper">
         <h2 class="section-title">About Us</h2>
         <p class="section-description about-us__description">Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -244,7 +242,7 @@
         </div>
       </div>
     </section>
-    <section class="quote">
+    <section id="quote" class="quote">
       <div class="wrapper">
         <h2 class="section-title section-title_light">Get a Quote</h2>
         <p class="section-description section-description_light">Fusce dapibus, tellus ac cursus commodo, tortor mauris
@@ -291,6 +289,7 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
